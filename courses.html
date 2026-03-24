@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Courses • NovaCode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="glass">
+        <div class="logo">NovaCode</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html" class="active">Courses</a>
+            <a href="paths.html">Paths</a>
+            <a href="community.html">Community</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <div class="header-actions">
+            <button class="cta-header">Login</button>
+            <button class="cta-header cta-cyan">Get Started</button>
+        </div>
+    </header>
+
+    <div class="header-spacer"></div>
+
+    <section class="hero-page hero-courses">
+        <div class="hero-page-content">
+            <h1 class="hero-page-title">All Courses</h1>
+            <p class="hero-page-subtitle">
+                Interactive, beginner-friendly courses. No boring theory — just real coding, instant feedback, and projects you can show off.
+            </p>
+            <button class="btn-primary purple hero-page-cta">Browse All Courses</button>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="courses-filter-section">
+        <div class="courses-filter-container">
+            <div class="filter-tags">
+                <button class="tag active">All</button>
+                <button class="tag">Beginner</button>
+                <button class="tag">Web Development</button>
+                <button class="tag">Python</button>
+                <button class="tag">JavaScript</button>
+                <button class="tag">Data</button>
+                <button class="tag">Projects</button>
+            </div>
+            <p class="courses-count">
+                42 courses • Updated weekly • 100% free
+            </p>
+        </div>
+    </section>
+
+    <!-- Courses Grid -->
+    <section class="courses-list-section">
+        <div class="courses-grid">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="card-img html-bg">HTML</div>
+                <div class="card-body">
+                    <h3>HTML & CSS Mastery</h3>
+                    <p class="course-description">
+                        Build modern, responsive websites from scratch. Flexbox, Grid, animations, accessibility.
+                    </p>
+                    <div class="course-meta">
+                        <span class="meta-item"><strong>Level:</strong> Beginner</span>
+                        <span class="meta-item"><strong>Lessons:</strong> 28</span>
+                        <span class="meta-item"><strong>Projects:</strong> 5</span>
+                        <span class="meta-item"><strong>Duration:</strong> ~18 h</span>
+                    </div>
+                    <button class="path-cta purple-cta">Start Course</button>
+                </div>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="card-img js-bg">JS</div>
+                <div class="card-body">
+                    <h3>JavaScript – From Zero to Hero</h3>
+                    <p class="course-description">
+                        Variables, functions, DOM, async/await, fetch, modules, modern ES6+ features.
+                    </p>
+                    <div class="course-meta">
+                        <span class="meta-item"><strong>Level:</strong> Beginner → Intermediate</span>
+                        <span class="meta-item"><strong>Lessons:</strong> 45</span>
+                        <span class="meta-item"><strong>Projects:</strong> 12</span>
+                    </div>
+                    <button class="path-cta cyan-cta">Start Course</button>
+                </div>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="card-img react-bg">React</div>
+                <div class="card-body">
+                    <h3>React 2025 – Modern Frontend</h3>
+                    <p class="course-description">
+                        Components, hooks, state management, routing, API integration, Next.js basics.
+                    </p>
+                    <div class="course-meta">
+                        <span class="meta-item"><strong>Level:</strong> Intermediate</span>
+                        <span class="meta-item"><strong>Lessons:</strong> 38</span>
+                        <span class="meta-item"><strong>Projects:</strong> 4</span>
+                    </div>
+                    <button class="path-cta purple-cta">Start Course</button>
+                </div>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course-card">
+                <div class="card-img python-bg">Python</div>
+                <div class="card-body">
+                    <h3>Python for Beginners & Automation</h3>
+                    <p class="course-description">
+                        Basics → functions → OOP → file handling → APIs → automation scripts.
+                    </p>
+                    <div class="course-meta">
+                        <span class="meta-item"><strong>Level:</strong> Beginner</span>
+                        <span class="meta-item"><strong>Lessons:</strong> 32</span>
+                        <span class="meta-item"><strong>Projects:</strong> 6</span>
+                    </div>
+                    <button class="path-cta purple-cta">Start Course</button>
+                </div>
+            </div>
+
+            <!-- Course 5 -->
+            <div class="course-card">
+                <div class="card-img sql-bg">SQL</div>
+                <div class="card-body">
+                    <h3>SQL & Databases – Zero to Queries</h3>
+                    <p class="course-description">
+                        SELECT, JOINs, GROUP BY, subqueries, indexing, real-world database projects.
+                    </p>
+                    <div class="course-meta">
+                        <span class="meta-item"><strong>Level:</strong> Beginner</span>
+                        <span class="meta-item"><strong>Lessons:</strong> 26</span>
+                        <span class="meta-item"><strong>Projects:</strong> 5</span>
+                    </div>
+                    <button class="path-cta purple-cta">Start Course</button>
+                </div>
+            </div>
+
+            <!-- Add more cards here if needed -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <div class="logo">NovaCode</div>
+                <p class="footer-tagline">Modern coding education for beginners.</p>
+            </div>
+            <div>
+                <h4 class="footer-heading">Explore</h4>
+                <a href="index.html">Home</a>
+                <a href="courses.html">Courses</a>
+                <a href="paths.html">Paths</a>
+            </div>
+            <div>
+                <h4 class="footer-heading">Company</h4>
+                <a href="#">About</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 NovaCode
+        </div>
+    </footer>
+
+</body>
+</html>

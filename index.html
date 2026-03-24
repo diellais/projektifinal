@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>NovaCode • Learn to Code</title>
+    
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="glass">
+        <div class="logo">NovaCode</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="paths.html">Paths</a>
+            <a href="community.html">Community</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <div style="display: flex; gap: 14px;">
+            <a href="login.html"><button class="cta-header">Login</button></a>
+            <a href="signup.html"><button class="cta-header" style="background: var(--cyan); color: #0f0f17;">Get Started</button></a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Code the future.<br><span class="gradient">Beautifully.</span></h1>
+                <p>Free interactive coding lessons for beginners. Modern curriculum. Clean design. Real results.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary purple">Start Learning Free</button>
+                    <button class="btn-primary cyan">Explore Courses</button>
+                </div>
+                <div style="margin-top:3rem;color:#aaa;font-size:0.95rem;">
+                    4.9 rating • 180k+ learners • Always free
+                </div>
+            </div>
+
+            <div class="hero-visual glass">
+                <div class="code-snippet">
+<span class="code-comment">// Welcome to NovaCode - your first interactive lesson</span>
+<span class="code-keyword">function</span> <span class="code-function">greetUser</span>(name) {
+  <span class="code-keyword">const</span> greeting = <span class="code-string">"Hello, "</span> + name + <span class="code-string">"!"</span>;
+  <span class="code-keyword">const</span> message = greeting + <span class="code-string">" Ready to start coding?"</span>;
+
+  <span class="code-builtin">console</span>.log(message);
+  <span class="code-builtin">alert</span>(message);
+
+  <span class="code-keyword">return</span> {
+    name: name,
+    timestamp: <span class="code-builtin">Date</span>.now()
+  };
+}
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <section class="paths-section">
+        <h2 class="section-title">Choose Your Learning Path</h2>
+        <div class="paths-container">
+
+            <div class="path-feature-card">
+                <div class="path-header"></div>
+                <div class="path-content">
+                    <h3 class="path-title">Frontend Developer Path</h3>
+                    <p class="path-description">
+                        Master modern web development from HTML fundamentals to React and responsive design. Build real-world portfolio projects along the way.
+                    </p>
+                    <div class="path-stats">
+                        <div class="path-stat">≈ 9–14 weeks</div>
+                        <div class="path-stat">42 lessons</div>
+                        <div class="path-stat">8 projects</div>
+                    </div>
+                    <div class="path-progress-bar">
+                        <div class="path-progress-fill" style="width: 65%;"></div>
+                    </div>
+                    <button class="path-cta">Start This Path</button>
+                </div>
+            </div>
+
+            <div class="path-feature-card path-card-cyan">
+                <div class="path-header"></div>
+                <div class="path-content">
+                    <h3 class="path-title">Python & Data Path</h3>
+                    <p class="path-description">
+                        Learn Python from zero to data analysis, visualization and automation. Work with real datasets and create insightful charts & reports.
+                    </p>
+                    <div class="path-stats">
+                        <div class="path-stat">≈ 7–11 weeks</div>
+                        <div class="path-stat">35 lessons</div>
+                        <div class="path-stat">6 projects</div>
+                    </div>
+                    <div class="path-progress-bar">
+                        <div class="path-progress-fill" style="width: 45%;"></div>
+                    </div>
+                    <button class="path-cta">Start This Path</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Try It Now</h2>
+        <div class="try-now">
+            <div>
+                <div class="editor">
+                    <pre style="color:#c4b5fd;">
+<span class="code-keyword">function</span> <span class="code-function">sayHello</span>(name) {
+  <span class="code-keyword">return</span> `Hello, ${name}! Welcome.`;
+}
+
+<span class="code-builtin">console</span>.log(sayHello(<span class="code-string">"Developer"</span>));
+                    </pre>
+                </div>
+            </div>
+            <div>
+                <h3 style="font-size:2.2rem;margin-bottom:1.5rem;">Run your first code — instantly</h3>
+                <p style="color:#aaa;margin-bottom:2rem;">No setup. No account. Just start typing and see results.</p>
+                <button class="btn-primary purple" style="font-size:1.2rem;padding:18px 48px;">Try Editor</button>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">What Learners Say</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <p>“From complete beginner to building real projects in weeks. The lessons are clear and actually fun.”</p>
+                <div style="margin-top:1.5rem;">
+                    <strong>Aria M.</strong><br>
+                    <small style="color:#aaa;">Frontend Developer Intern</small>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p>“Best free resource I've found. The pace is perfect and the code challenges keep me coming back.”</p>
+                <div style="margin-top:1.5rem;">
+                    <strong>Leo R.</strong><br>
+                    <small style="color:#aaa;">Self-taught Developer</small>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+        
+    </section>
+
+    <div class="join-cta">
+        <h2 style="font-size:3.8rem;margin-bottom:1rem;">Ready to Start?</h2>
+        <p style="font-size:1.4rem;color:#aaa;margin-bottom:2.5rem;">Join thousands learning to code — completely free.</p>
+        <button class="btn-primary purple" style="font-size:1.4rem;padding:22px 64px;">Create Free Account</button>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <div class="logo" style="font-size:1.9rem;">NovaCode</div>
+                <p style="margin-top:1.2rem;color:#777;">Modern coding education for beginners.</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom:1.2rem;color:white;">Explore</h4>
+                <a href="#" style="display:block;color:#aaa;margin:10px 0;text-decoration:none;">Courses</a>
+                <a href="#" style="display:block;color:#aaa;margin:10px 0;text-decoration:none;">Learning Paths</a>
+            </div>
+            <div>
+                <h4 style="margin-bottom:1.2rem;color:white;">Company</h4>
+                <a href="#" style="display:block;color:#aaa;margin:10px 0;text-decoration:none;">About</a>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:60px;color:#777;font-size:0.9rem;">
+            © 2026 NovaCode
+        </div>
+    </footer>
+
+    <script>
+        console.log("NovaCode homepage loaded.");
+    </script>
+</body>
+</html>
