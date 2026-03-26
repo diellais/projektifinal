@@ -1601,6 +1601,21 @@ a {
     gap: 2rem;
     margin-bottom: 3rem;
 }
+.path-footer-stats {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.p-stat { color: #666; font-size: 0.9rem; }
+.p-stat strong { color: #fff; margin-right: 4px; }
+
+.path-footer-stats button {
+    margin-left: auto;
+    padding: 12px 30px;
+}
 
 .path-main-icon {
     width: 80px;
@@ -1617,7 +1632,7 @@ a {
 .path-main-icon.frontend { box-shadow: 0 0 30px rgba(110, 68, 255, 0.2); }
 .path-main-icon.python { box-shadow: 0 0 30px rgba(0, 243, 255, 0.2); }
 
-/* --- Timeline --- */
+
 .path-timeline {
     margin-left: 40px;
     border-left: 2px dashed rgba(255,255,255,0.1);
@@ -1650,7 +1665,6 @@ a {
 
 
 
-/* Mobile Tweaks */
 @media (max-width: 768px) {
     .path-title-group { flex-direction: column; align-items: flex-start; gap: 1rem; }
     .path-footer-stats { flex-wrap: wrap; gap: 1rem; }
