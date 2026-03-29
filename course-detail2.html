@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Formatting • NovaCode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="overflow: hidden;"> 
+    
+    <header class="glass">
+        <div class="logo">NovaCode</div>
+        <nav>
+            <a href="courses.html">Back to Course</a>
+        </nav>
+        <div class="header-actions">
+            <span style="color: var(--pink-purple); font-weight: 600;">72% Complete</span>
+        </div>
+    </header>
+
+    <main class="lesson-container">
+        
+        <aside class="lesson-sidebar">
+            <div class="curriculum-section">
+                <h5>01. Getting Started</h5>
+                <a href="course-detail.html" class="lesson-item">
+                    <span>1.1</span> What is HTML?
+                </a>
+                <a href="#" class="lesson-item active">
+                    <span>1.2</span> Text Formatting
+                </a>
+            </div>
+
+            <div class="curriculum-section">
+                <h5>02. Structures</h5>
+                <a href="#" class="lesson-item">
+                    <span>2.1</span> Lists & Tables
+                </a>
+                <a href="#" class="lesson-item">
+                    <span>2.2</span> HTML Forms
+                </a>
+            </div>
+        </aside>
+
+        <section class="lesson-main">
+            <div class="lesson-content">
+                <div class="video-container">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/7FqQLqNIEY8?si=AhSxlps9lKWU_6XI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+                <div class="lesson-text">
+                    <div class="tag">HTML Basics</div>
+                    <h2>Text Formatting Elements</h2>
+                    <p>In HTML, we use specific tags to change the <strong>visual importance</strong> or style of text. While CSS is used for heavy styling, these HTML tags provide semantic meaning to your words.</p>
+                    
+                    <h3>Bold and Italicized Text</h3>
+                    <p>The most common formatting tags are used to emphasize specific words within a paragraph.</p>
+
+                    <div class="code-block-header">formatting.html</div>
+                    <div class="glass-card code-snippet" style="border-radius: 0 0 12px 12px;">
+<span class="code-keyword">&lt;p&gt;</span>This is <span class="code-keyword">&lt;b&gt;</span>bold text<span class="code-keyword">&lt;/b&gt;</span> and this is <span class="code-keyword">&lt;i&gt;</span>italic text<span class="code-keyword">&lt;/i&gt;</span>.<span class="code-keyword">&lt;/p&gt;</span>
+<span class="code-keyword">&lt;p&gt;</span>Use <span class="code-keyword">&lt;strong&gt;</span>important text<span class="code-keyword">&lt;/strong&gt;</span> for SEO importance.<span class="code-keyword">&lt;/p&gt;</span></div>
+
+                    <h3 style="margin-top: 2.5rem;">Semantic vs. Visual</h3>
+                    <p>There is a difference between <code>&lt;b&gt;</code> (visual bold) and <code>&lt;strong&gt;</code> (semantic importance). Screen readers for visually impaired users will emphasize <strong>strong</strong> text differently than just bold text.</p>
+
+                    <div class="code-block-header">more-tags.html</div>
+                    <div class="glass-card code-snippet" style="border-radius: 0 0 12px 12px;">
+<span class="code-keyword">&lt;p&gt;</span>You can also <span class="code-keyword">&lt;mark&gt;</span>highlight<span class="code-keyword">&lt;/mark&gt;</span> text or 
+show <span class="code-keyword">&lt;del&gt;</span>deleted<span class="code-keyword">&lt;/del&gt;</span> content.<span class="code-keyword">&lt;/p&gt;</span></div>
+                </div>
+            </div>
+
+            <div style="height: 100px;"></div>
+        </section>
+
+        <footer class="lesson-nav">
+            <a href="lesson-what-is-html.html" style="text-decoration: none;">
+                <button class="cta-header" style="background: transparent; border: 1px solid #444;">Previous</button>
+            </a>
+            <div class="lesson-info">
+                <strong>Next:</strong> Lists & Tables
+            </div>
+            <button class="cta-header">Complete & Continue</button>
+        </footer>
+
+    </main>
+</body>
+</html>
